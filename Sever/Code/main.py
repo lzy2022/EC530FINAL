@@ -27,7 +27,10 @@ class User_Login(Resource):
         user_role = db_ac.get_user_role()
         user_module = db_ac.get_module_list()
         user_function = db_ac.get_func_dic()
-        db_ac.user_logout()
+        try:
+            db_ac.user_logout()
+        except:
+            return {'message':'Login failed!'}, 400   
         return {'message':'Loged in', 'user_name': user_name, 'user_role': user_role, 
                 'user_module': user_module, 'user_function':user_function}, 200
 

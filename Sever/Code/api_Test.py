@@ -1,13 +1,10 @@
 import requests
 import json
 
-BASE = "https://ec530final.ue.r.appspot.com/"
+BASE = "http://127.0.0.1:5000/"
 
-response = requests.get(BASE + "moduleFunction/Chat/View Your Message", {'u_id': 1, 'pw': 'admin'
-                                                                                ,'para': [111]})
+response = requests.get(BASE + "login", {'u_id': 1, 'pw': 'aadmin'
+                                                                                ,'para': [111, 123123]})
 print(response.json())
 
-response = requests.get(BASE + "moduleFunction/Chat/View Group Message", {'u_id': 1, 'pw': 'admin'
-                                                                                ,'para': [123]})
-print(response.json())
 
