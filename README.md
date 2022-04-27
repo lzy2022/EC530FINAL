@@ -1,12 +1,26 @@
-# EC530_Project4
+# EC530_Final_Project
 ## Intro
-This RESTful API is designed and powered uing google cloud sever. When posting http request with speech file, please encode the speech file as '.wav' with sample rate = 16000Hz and single track
+This repository contains a fully-implemented sever and clent app of the previous Project_2 (the "patient connect" sever & front-end app). The Final project also integrate Project_4, the sound to text sever. A functioning back-end sever has already been deployed for both of sever-end application (deployed on Google Cloud). User can download the android-app package and loging to the patient connect services.
 
  [Github Structure](#Github-Structure)
  
  [Setting up Back-end Sever](#Setting-up-Back-end-Sever)
  
- [Functions of RESTful API & Request Formates](#Functions-of-RESTful-API-and-Request-Formates)
+ [About Front-end Client APP, User manual]
+ 
+ [----Code Structure]
+ 
+ [----Setting Up User Account](#Post-Speech-File)
+ 
+ [----Module](#Get-Task-State)
+ 
+ [----Module](#Get-Task-Result)
+ 
+ [----Module](#Get-Task-Result)
+ 
+ [----Session Examples](#Session-Examples)
+ 
+ [About Back-end Database Sever, RESTful API & Request Formates](#Functions-of-RESTful-API-and-Request-Formates)
  
  [----Post Speech File](#Post-Speech-File)
  
@@ -14,7 +28,17 @@ This RESTful API is designed and powered uing google cloud sever. When posting h
  
  [----Get Task Result](#Get-Task-Result)
  
- [Session Examples](#Session-Examples)
+ [----Session Examples](#Session-Examples)
+ 
+ [About Sound To Text Sever, RESTful API & Request Formates](#Functions-of-RESTful-API-and-Request-Formates)
+ 
+ [----Post Speech File](#Post-Speech-File)
+ 
+ [----Get Task State](#Get-Task-State)
+ 
+ [----Get Task Result](#Get-Task-Result)
+ 
+ [-----Session Examples](#Session-Examples)
  
  
 
