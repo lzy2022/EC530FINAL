@@ -6,15 +6,11 @@ from project2_exceptions import RequireUserLogin, UserIdNotExist, PassWordNotMat
 import sqlite3
 from module_func import call_func
 
-
-db_addr = './DB/Project_2.db'
-
 class DB_acc_info:
     
     # initialize the empty dict
     def __init__(self, addr):
-        global db_addr
-        db_addr = 'null'
+        self.db_addr = addr
         self.state = False
         self.current_uid = 0
         self.current_uname_f = ''
@@ -22,13 +18,9 @@ class DB_acc_info:
         self.current_urole = ''
         self.module_list = []
         self.function_dic = {}
-        if exists(addr):
-            db_addr = addr
-        else:
-            print("db file not exist\n")
             
     def varify_user(self, u_id, pw):
-        con = sqlite3.connect(db_addr)
+        con = sqlite3.connect(self.db_addr)
         cur = con.cursor()
         cur.execute("SELECT * FROM user_pw WHERE user_id = ?", (u_id,))
         user = cur.fetchone()
@@ -54,7 +46,7 @@ class DB_acc_info:
         # ==================quick fix
         if self.state == True:
             self.current_uid = user_id
-            con = sqlite3.connect(db_addr)
+            con = sqlite3.connect(self.db_addr)
             cur = con.cursor()
             # get the user's name
             cur.execute("SELECT * FROM users WHERE user_id = ?", (user_id,))
@@ -112,7 +104,7 @@ class DB_acc_info:
                 raise NoAccessToModuleOrFunction
                 # ==================quick 
             else:
-                buf = call_func(db_addr, module_name, func_name, self.current_uid, func_args)
+                buf = call_func(self.db_addr, module_name, func_name, self.current_uid, func_args)
                 if buf is not None:
                     return buf
     

@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "EC530FINAL",
+    "slug": "EC530FINAL",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "EC530FINAL"
+}

@@ -380,6 +380,20 @@ def view_group_msg(db_addr,u_id, g_id):
     for row in u:
         msg_list.append({'from': row[1], 'to': row[2], 'group': row[3], 'time': row[4], 'content': row[0]})
     return msg_list
+
+def get_group_list(db_addr, uid):
+    if check_user(db_addr, uid) == False:
+        raise UserIdNotExist
+    con = sqlite3.connect(db_addr)
+    cur = con.cursor()
+    # check if admission exist
+    cur.execute("SELECT group_id, group_name FROM chat_group WHERE user_id = ?", (uid,))
+    u = cur.fetchall()
+    con.close()
+    g_id_list = []
+    for row in u:
+        g_id_list.append({'g_id': row[0], 'g_name': row[1]})
+    return g_id_list
     
 def call_func(db_addr, module_name, func_name, u_id, func_args):
     # Administrative
@@ -423,4 +437,6 @@ def call_func(db_addr, module_name, func_name, u_id, func_args):
         return view_user_msg(db_addr, u_id)
     if module_name == 'Chat' and func_name == 'View Group Message':
         return view_group_msg(db_addr, u_id, func_args[0])
+    if module_name == 'Chat' and func_name == 'Get Group List':
+        return get_group_list(db_addr, u_id)
     return None
