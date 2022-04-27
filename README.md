@@ -56,9 +56,9 @@ This repository contains a fully-implemented sever and clent app of the previous
 Client Code is built using React Native, the library of React Native is not uploaded to this repositry due to the size of the library. To built the app locally, download all the files under EC530FINAL/Client_Code/CodePart/, setting up a React Native project locally, down load all the package required listed in modules_added.txt, and paste all the files under EC530FINAL/Client_Code/CodePart/ to the local React Native project folder. A downloadable Android package is also included.
 
     - CodePart
-          Main body of the React Native application, not including the system's library, needed to be               pasted into a pre-built React Native project.
+          Main body of the React Native application, not including the system's library, needed to be pasted into a pre-built React Native project.
     - modules_added.txt
-          Configuration of the React Native project, need to download all the packages required before               building the project loaclly. 
+          Configuration of the React Native project, need to download all the packages required before building the project loaclly. 
   
 ## Setting up Back-end Sever
 This project is designed for google cloud. To set up the sever, just run the following line in the Code folder:
