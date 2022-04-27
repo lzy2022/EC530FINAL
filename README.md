@@ -1,14 +1,14 @@
 # EC530_Final_Project
 ## Intro
-This repository contains a fully-implemented sever and clent app of the previous Project_2 (the "patient connect" sever & front-end app). The Final project also integrate Project_4, the sound to text sever. A functioning back-end sever has already been deployed for both of sever-end application (deployed on Google Cloud). User can download the android-app package and loging to the patient connect services.
+This repository contains a fully-implemented sever and clent app of the previous Project_2 (the "patient connect" sever & front-end app). The front-end application is built using **React-NativeThe**. Final project also integrate Project_4, the sound to text sever. A functioning back-end sever has already been deployed for both of sever-end application (deployed on Google Cloud). User can download the android-app package and loging to the patient connect services.
 
  [Github Structure](#Github-Structure)
  
  [Setting up Back-end Sever](#Setting-up-Back-end-Sever)
  
- [About Front-end Client APP, User manual]
+ [About Front-end Client APP, User manual](#Setting-up-Back-end-Sever)
  
- [----Code Structure]
+ [----Code Structure](#Setting-up-Back-end-Sever)
  
  [----Setting Up User Account](#Post-Speech-File)
  
@@ -45,21 +45,19 @@ This repository contains a fully-implemented sever and clent app of the previous
 ## Github Structure
 ### Top Level
     - .github
-    - Code (*The Main Body of the Project)
+    - **Client_Code (*The Main Body of the Project, contients the front-end application)**
+    - **Sever (*The Main Body of the Project, contients the front-end application)**
+    - **Sound2Text_Sever (*The Main Body of the Project, contients the front-end application)**
     - Flake8_Styles
+    - Images
     - requirements.txt
     - README.md
-#### Code 
-    - main.py
-          main.py contains the main function of the API. This file is used to launch the back-end server
-    - app.yaml
-          Config info for google cloud sever
-    - requirements.txt
-          Config info for google cloud sever
-    - This_is_a_test.wav
-          A test speech file
-    - API_test.py
-          A test session
+#### Client_Code 
+Client Code is built using React Native, the library of React Native is not uploaded to this repositry due to the size of the library. To built the app locally, download all the files under EC530FINAL/Client_Code/CodePart/, setting up a React Native project locally, down load all the package required listed in modules_added.txt, and paste all the files under EC530FINAL/Client_Code/CodePart/ to the local React Native project folder. A downloadable Android package is also included.
+    - CodePart
+          Main body of the React Native application, not including the system's library, needed to be pasted into a pre-built React Native project.
+    - modules_added.txt
+          Configuration of the React Native project, need to download all the packages required before building the project loaclly. 
   
 ## Setting up Back-end Sever
 This project is designed for google cloud. To set up the sever, just run the following line in the Code folder:
