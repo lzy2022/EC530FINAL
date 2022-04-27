@@ -55,10 +55,31 @@ This repository contains a fully-implemented sever and clent app of the previous
 #### Client_Code 
 Client Code is built using React Native, the library of React Native is not uploaded to this repositry due to the size of the library. To built the app locally, download all the files under EC530FINAL/Client_Code/CodePart/, setting up a React Native project locally, down load all the package required listed in modules_added.txt, and paste all the files under EC530FINAL/Client_Code/CodePart/ to the local React Native project folder. A downloadable Android package is also included.
 
-    - CodePart
-          Main body of the React Native application, not including the system's library, needed to be pasted into a pre-built React Native project.
-    - modules_added.txt
-          Configuration of the React Native project, need to download all the packages required before building the project loaclly. 
+##### CodePart
+  Main body of the React Native application, not including the system's library, needed to be pasted into a pre-built React Native project.
+##### modules_added.txt
+  Configuration of the React Native project, need to download all the packages required before building the project loaclly. 
+          
+#### Sever/Code
+  This folder contains the main back-end application of the project. The sever is built using RESTful API and manage all the sever-end data base, including users' info, device info and all chat messages. New data base can be set-up running the **db_setup.py**.
+
+##### main.py
+  main.py contains the main function of the API. This file is used to launch the back-end server
+     
+##### db_info.py
+  db_info.py contains the object managing database information & user information. 
+  
+##### db_setup.py
+  db_setup.py would download a database framework of this project. This module is used in the back-end server setup process
+  
+##### module_func.py
+  module_func.py implements functions users can call to interact with the database
+     
+##### project2_exceptions.py
+  project2_exceptions.py contains the exceptions that would raise by the back-end server
+  
+##### DB
+  Contains the data base file of the back-end application. Managing users' info, device info and all chat messages.
   
 ## Setting up Back-end Sever
 This project is designed for google cloud. To set up the sever, just run the following line in the Code folder:
