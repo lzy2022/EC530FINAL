@@ -168,13 +168,30 @@ This application is built using ReactNative and tested for Android. It provides 
                  7. Get Group List
                  
 ### Function Pages:
-1. Login Page
-2. Main Page
-3. Search Page
-4. Administrative - Add User
-5. Administrative - Change User Role
-6. Administrative - Delete User Info
-        
+#### 1. Login Page
+#### 2. Main Page
+#### 3. Search Page
+#### 4. Administrative - Add User
+#### 5. Administrative - Change User Role
+#### 6. Administrative - Delete User Info
+#### 7. Administrative - Get User List
+#### 8. Device - Add Device
+#### 9. Device - Get Device List
+#### 10. Device - Check Device Parameter
+#### 11. Device - Clear Device Parameter
+#### 12. Device - Add Device Parameter
+#### 13. Device - Assign Device
+#### 14. Device - Upload Test Record
+#### 15. Device - View Patient Test Records
+#### 16. Device - View Your Test Records
+#### 17. Chat - Create Chat Group
+#### 18. Chat - Add User to Chat Group
+#### 19. Chat - Remove User from Chat Group
+#### 20. Chat - Send Message
+#### 21. Chat - View Your Message
+#### 22. Chat - View Group Message
+#### 23. Chat - Get Group List
+
 ## Functions of RESTful API and Request Formates
 The following parts contain formates and functions that can be called from the front-end side using http requests. Users need to import the following python modules:
 
