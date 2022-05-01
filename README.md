@@ -80,9 +80,23 @@ Client Code is built using React Native, the library of React Native is not uplo
   
     - DB
       Contains the data base file of the back-end application. Managing users' info, device info and all chat messages.
+      
+#### Sound2Text_Sever
+This RESTful API is designed and powered uing google cloud sever. When posting http request with speech file, please encode the speech file as '.wav' with sample rate = 16000Hz and single track. Client application would activate local mic and upload a .wav file to this sever and recieve the converted text string.
+
+    - main.py
+          main.py contains the main function of the API. This file is used to launch the back-end server
+    - app.yaml
+          Config info for google cloud sever
+    - requirements.txt
+          Config info for google cloud sever
+    - This_is_a_test.wav
+          A test speech file
+    - API_test.py
+          A test session
   
 ## Setting up Back-end Sever
-This project is designed for google cloud. To set up the sever, just run the following line in the Code folder:
+The back end severs are designed for google cloud. To set up the severs (Both database & sound2text), just run the following line in the Code folder (EC530FINAL/Sever/Code/ or EC530FINAL/Sound2Text_Sever/Code/):
         gcloud app deploy
 
 The google cloud sever should have the following APIs enabled:
@@ -90,6 +104,68 @@ The google cloud sever should have the following APIs enabled:
         google cloud speech to text API
         google-api-python-client
         google-cloud-tasks==2.7.1
+        
+## Client UI User Manual
+
+### Intro to Client Application
+This application is built using ReactNative and tested for Android. It provides users access to the database functions according to their account's role. There are three main modules: Administrative, Device and Chat. Different roles have different accessible functions, shown in the chart below:
+
+      - Role: Admin
+            Administrative:
+                 1. Add User
+                 2. Change User Role 
+                 3. Delete User Info
+                 4. Get User List
+            Device:
+                 1. Add Device
+                 2. Add Device Parameter
+                 3. Check Device Parameter
+                 4. Assign Device 
+                 5. Clear Device Parameter
+                 6. Get Device List
+            Chat: 
+                 1. Create Chat Group
+                 2. Add User to Chat Group
+                 3. Remove User from Chat Group
+                 4. Send Message
+                 5. View Your Message
+                 6. View Group Message
+                 7. Get Group List
+
+      - Role: Doctor
+            Administrative:
+                 1. Get User List
+            Device:
+                 1. Assign Device 
+                 2. View Patient Test Records
+                 3. Check Device Parameter
+                 4. Upload Test Record
+                 5. Get Device List
+            Chat: 
+                 1. Create Chat Group
+                 2. Add User to Chat Group
+                 3. Remove User from Chat Group
+                 4. Send Message
+                 5. View Your Message
+                 6. View Group Message
+                 7. Get Group List
+
+      - Role: Patient
+            Administrative:
+                 1. Get User List
+            Device:
+                 1. Upload Test Record
+                 2. View Your Test Records
+                 3. Check Device Parameter
+                 4. Get Device List
+            Chat: 
+                 1. Create Chat Group
+                 2. Add User to Chat Group
+                 3. Remove User from Chat Group
+                 4. Send Message
+                 5. View Your Message
+                 6. View Group Message
+                 7. Get Group List
         
 ## Functions of RESTful API and Request Formates
 The following parts contain formates and functions that can be called from the front-end side using http requests. Users need to import the following python modules:
