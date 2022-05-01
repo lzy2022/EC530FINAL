@@ -166,6 +166,14 @@ This application is built using ReactNative and tested for Android. It provides 
                  5. View Your Message
                  6. View Group Message
                  7. Get Group List
+                 
+### Function Pages:
+1. Login Page
+2. Main Page
+3. Search Page
+4. Administrative - Add User
+5. Administrative - Change User Role
+6. Administrative - Delete User Info
         
 ## Functions of RESTful API and Request Formates
 The following parts contain formates and functions that can be called from the front-end side using http requests. Users need to import the following python modules:
