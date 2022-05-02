@@ -169,49 +169,91 @@ This application is built using ReactNative and tested for Android. It provides 
                  
 ### Function Pages:
 #### 1. Login Page
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/1.PNG" width="30%" height="30%">
+
 #### 2. Main Page
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/2.PNG" width="30%" height="30%">
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/2_2.PNG" width="30%" height="30%">
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/2_3.PNG" width="30%" height="30%">
+
 #### 3. Search Page
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/Search.PNG" width="30%" height="30%">
+
 #### 4. Administrative - Add User
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/3.PNG" width="30%" height="30%">
+
 #### 5. Administrative - Change User Role
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/4.PNG" width="30%" height="30%">
+
 #### 6. Administrative - Delete User Info
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/5.PNG" width="30%" height="30%">
+
 #### 7. Administrative - Get User List
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/Search.PNG" width="30%" height="30%">
+
 #### 8. Device - Add Device
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/6.PNG" width="30%" height="30%">
+
 #### 9. Device - Get Device List
+
 #### 10. Device - Check Device Parameter
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/8.PNG" width="30%" height="30%">
+
 #### 11. Device - Clear Device Parameter
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/10.PNG" width="30%" height="30%">
+
 #### 12. Device - Add Device Parameter
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/7.PNG" width="30%" height="30%">
+
 #### 13. Device - Assign Device
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/9.PNG" width="30%" height="30%">
+
 #### 14. Device - Upload Test Record
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/17.PNG" width="30%" height="30%">
+
 #### 15. Device - View Patient Test Records
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/19.PNG" width="30%" height="30%">
+
 #### 16. Device - View Your Test Records
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/18.PNG" width="30%" height="30%">
+
 #### 17. Chat - Create Chat Group
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/11.PNG" width="30%" height="30%">
+
 #### 18. Chat - Add User to Chat Group
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/12.PNG" width="30%" height="30%">
+
 #### 19. Chat - Remove User from Chat Group
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/13.PNG" width="30%" height="30%">
+
 #### 20. Chat - Send Message
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/14.PNG" width="30%" height="30%">
+
 #### 21. Chat - View Your Message
+
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/15.PNG" width="30%" height="30%">
+
 #### 22. Chat - View Group Message
+
 #### 23. Chat - Get Group List
 
 ## Speech To Text - Functions of RESTful API and Request Formates
