@@ -169,6 +169,7 @@ This application is built using ReactNative and tested for Android. It provides 
                  
 ### Function Pages:
 #### 1. Login Page
+<img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/1.PNG" width="50%" height="50%">
 ![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/1.PNG)
 #### 2. Main Page
 ![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/2.PNG)
