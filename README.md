@@ -169,26 +169,48 @@ This application is built using ReactNative and tested for Android. It provides 
                  
 ### Function Pages:
 #### 1. Login Page
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/1.PNG)
 #### 2. Main Page
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/2.PNG)
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/2_2.PNG)
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/2_3.PNG)
 #### 3. Search Page
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/Search.PNG)
 #### 4. Administrative - Add User
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/3.PNG)
 #### 5. Administrative - Change User Role
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/4.PNG)
 #### 6. Administrative - Delete User Info
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/5.PNG)
 #### 7. Administrative - Get User List
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/Search.PNG)
 #### 8. Device - Add Device
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/6.PNG)
 #### 9. Device - Get Device List
 #### 10. Device - Check Device Parameter
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/8.PNG)
 #### 11. Device - Clear Device Parameter
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/10.PNG)
 #### 12. Device - Add Device Parameter
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/7.PNG)
 #### 13. Device - Assign Device
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/9.PNG)
 #### 14. Device - Upload Test Record
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/17.PNG)
 #### 15. Device - View Patient Test Records
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/19.PNG)
 #### 16. Device - View Your Test Records
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/18.PNG)
 #### 17. Chat - Create Chat Group
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/11.PNG)
 #### 18. Chat - Add User to Chat Group
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/12.PNG)
 #### 19. Chat - Remove User from Chat Group
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/13.PNG)
 #### 20. Chat - Send Message
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/14.PNG)
 #### 21. Chat - View Your Message
+![alt text](https://github.com/lzy2022/EC530FINAL/raw/main/Images/15.PNG)
 #### 22. Chat - View Group Message
 #### 23. Chat - Get Group List
 
