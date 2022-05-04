@@ -180,16 +180,19 @@ All other account must be created by Admin account (accounts with role 'Admin', 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/1.PNG" width="30%" height="30%">
 
 #### 2. Main Page
+The following three page is the main pages corresponding to the 3 modules (Administrative/Device/Chat). Each page contains all the functions accessible by the current user (according to the user's role. Users can seek to different modules using the rendering box at the bottom of the page.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/2.PNG" width="30%" height="30%">
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/2_2.PNG" width="30%" height="30%">
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/2_3.PNG" width="30%" height="30%">
 
 #### 3. Search Page
+The search page would be activated when the user click on "Search for User/Device/Group" buttons. Search result will be automatically filled when user click on the search tags. User can also call the search page through the function tag Get User/Device/Group List
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/Search.PNG" width="30%" height="30%">
 
 #### 4. Administrative - Add User
+This function is accessible only for users with 'Admin' role tag. All accounts (except ID=1) needed to be created through this function. New accounts initially have no role tag. To assign roles to new accounts, use Administrative - Change User Role.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/3.PNG" width="30%" height="30%">
 
@@ -206,12 +209,14 @@ All other account must be created by Admin account (accounts with role 'Admin', 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/Search.PNG" width="30%" height="30%">
 
 #### 8. Device - Add Device
+This function would create a new device. New device initially have no parameter. To assign parameters to devices, use Add Device Parameter / Device - Clear Device Parameter
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/6.PNG" width="30%" height="30%">
 
 #### 9. Device - Get Device List
 
 #### 10. Device - Check Device Parameter
+This page would return all avaliable parameters of a device.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/8.PNG" width="30%" height="30%">
 
