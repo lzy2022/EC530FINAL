@@ -169,6 +169,13 @@ This application is built using ReactNative and tested for Android. It provides 
                  
 ### Function Pages:
 #### 1. Login Page
+This page is the first page opened in the client APP. User can login using their user account & password. 
+There is a default admin acount:
+
+      user id: 1
+      password: admin
+      
+All other account must be created by Admin account (accounts with role 'Admin', not necessary the acount with ID=1). Admin account can create account using the Add User function under the Administrative module and assign roles to new accounts using Change User Role function.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/1.PNG" width="30%" height="30%">
 
