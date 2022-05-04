@@ -215,6 +215,8 @@ This function would create a new device. New device initially have no parameter.
 
 #### 9. Device - Get Device List
 
+<img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/20.PNG" width="30%" height="30%">
+
 #### 10. Device - Check Device Parameter
 This page would return all avaliable parameters of a device.
 
@@ -276,8 +278,13 @@ This page can view all the individual chat messages sent to the current account 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/15.PNG" width="30%" height="30%">
 
 #### 22. Chat - View Group Message
+This page show all the group chat messages. User can send / view messages in the chat groups which they have access to
+
+<img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/21.PNG" width="30%" height="30%">
 
 #### 23. Chat - Get Group List
+
+<img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/22.PNG" width="30%" height="30%">
 
 ## Speech To Text - Functions of RESTful API and Request Formates
 The following parts contain formates and functions that can be called from the front-end side using http requests. Users need to import the following python modules:
