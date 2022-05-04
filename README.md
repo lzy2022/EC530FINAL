@@ -221,46 +221,57 @@ This page would return all avaliable parameters of a device.
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/8.PNG" width="30%" height="30%">
 
 #### 11. Device - Clear Device Parameter
+This page would clear all the parameters current assigned to the device
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/10.PNG" width="30%" height="30%">
 
 #### 12. Device - Add Device Parameter
+This page would add a new paramter to the device, using parameter's name & unit
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/7.PNG" width="30%" height="30%">
 
 #### 13. Device - Assign Device
+This page would assign the device to a specific patient so that the patient can later upload thier test record refering this device.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/9.PNG" width="30%" height="30%">
 
 #### 14. Device - Upload Test Record
+This page is accessible both by Patient & Docter. *Patient can only upload test result for themselves, while Doctor accounts can upload result for any patient account. Test results can only refer to devices that are assigned to the current account (for Doctor account, the patient he/she is uploading result for should have access the device).
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/17.PNG" width="30%" height="30%">
 
 #### 15. Device - View Patient Test Records
+This page is accessible by Doctor. He/She can view any Patient's test results.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/19.PNG" width="30%" height="30%">
 
 #### 16. Device - View Your Test Records
+This page is accessible by Patient. Patients can only view their own test results.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/18.PNG" width="30%" height="30%">
 
 #### 17. Chat - Create Chat Group
+This page can create chat group using group ID & group name. The user who create the group would be the automatically added into the group as a initial member.
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/11.PNG" width="30%" height="30%">
 
 #### 18. Chat - Add User to Chat Group
+This page can add new user to the chat group. The user who add the other user must already be a member of the group
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/12.PNG" width="30%" height="30%">
 
 #### 19. Chat - Remove User from Chat Group
+This page can remove user from the chat group. The user who remove the other user must already be a member of the group
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/13.PNG" width="30%" height="30%">
 
 #### 20. Chat - Send Message
+This page can send individual chat message to other users (not group chat)
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/14.PNG" width="30%" height="30%">
 
 #### 21. Chat - View Your Message
+This page can view all the individual chat messages sent to the current account (not group chat)
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/15.PNG" width="30%" height="30%">
 
