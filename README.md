@@ -20,7 +20,7 @@ This repository contains a fully-implemented sever and clent app of the previous
  
  [--------Chat Module](#Chat-Create-Chat-Group)
  
- [About Sound To Text Sever, RESTful API & Request Formates](#Functions-of-RESTful-API-and-Request-Formates)
+ [About Sound To Text Sever, RESTful API & Request Formates](#Speech-To-Text-Functions-of-RESTful-API-and-Request-Formates)
  
  [----Post Speech File](#Post-Speech-File)
  
@@ -294,7 +294,7 @@ This page show all the group chat messages. User can send / view messages in the
 
 <img src="https://github.com/lzy2022/EC530FINAL/raw/main/Images/22.PNG" width="30%" height="30%">
 
-## Speech To Text - Functions of RESTful API and Request Formates
+## Speech To Text Functions of RESTful API and Request Formates
 The following parts contain formates and functions that can be called from the front-end side using http requests. Users need to import the following python modules:
 
         import requests
