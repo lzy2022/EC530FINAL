@@ -6,29 +6,19 @@ This repository contains a fully-implemented sever and clent app of the previous
  
  [Setting up Back-end Sever](#Setting-up-Back-end-Sever)
  
- [About Front-end Client APP, User manual](#Setting-up-Back-end-Sever)
+ [About Front-end Client APP, User manual](#Client-UI-User-Manual)
  
- [----Code Structure](#Setting-up-Back-end-Sever)
+ [----Intro to Client Application](#Setting-up-Back-end-Sever)
  
- [----Setting Up User Account](#Post-Speech-File)
+ [----Setting Up User Account](#Intro-to-Client-Application)
  
- [----Module](#Get-Task-State)
+ [----Function Pages](#Function-Pages)
  
- [----Module](#Get-Task-Result)
+ [--------Administrative Module](#Administrative-Add-User)
  
- [----Module](#Get-Task-Result)
+ [--------Device Module](#Device-Add-Device)
  
- [----Session Examples](#Session-Examples)
- 
- [About Back-end Database Sever, RESTful API & Request Formates](#Functions-of-RESTful-API-and-Request-Formates)
- 
- [----Post Speech File](#Post-Speech-File)
- 
- [----Get Task State](#Get-Task-State)
- 
- [----Get Task Result](#Get-Task-Result)
- 
- [----Session Examples](#Session-Examples)
+ [--------Chat Module](#Chat-Create-Chat-Group)
  
  [About Sound To Text Sever, RESTful API & Request Formates](#Functions-of-RESTful-API-and-Request-Formates)
  
@@ -38,7 +28,25 @@ This repository contains a fully-implemented sever and clent app of the previous
  
  [----Get Task Result](#Get-Task-Result)
  
- [-----Session Examples](#Session-Examples)
+ [----Session Examples](#Session-Examples)
+ 
+ [About Database Sever, RESTful API & Request Formates](#Database-Structure)
+ 
+ [----Database Structure](#Database-Structure)
+ 
+ [----Functions of RESTful API and Request Formates](#Database-Functions-of-RESTful-API-and-Request-Formates)
+ 
+ [--------Login Request](#Login-Request)
+ 
+ [--------Function Request](#Function-Request)
+ 
+ [--------Administrative Module](#Administrative-Module)
+ 
+ [--------Device Module](#Device-Module)
+ 
+ [--------Chat Module](#Chat-Module)
+ 
+ [-----Session Examples Database](#Session-Examples-Database)
  
  
 
@@ -676,7 +684,7 @@ Request Formate:
         response = requests.get(BASE + "moduleFunction/Chat/View Group Message", {'u_id': [your_account_id], 'pw': [your_account_pw]
                                                                                         ,'para': [[group_id_viewing]]})
                                                                                         
-### Session Examples
+### Session Examples Database
 #### Back-end Setup
 The first step is to download the database framework using the module [db_setup.py], the downloaded framework is named [Example_db.db]. The example then sets up a local sever connected to []Example_db.db and open the default python http port :5000, the address of the sever is http://127.0.0.1:5000/
 ![alt text](https://github.com/lzy2022/S2022_EC530_Project2/raw/main/Images/EX1.PNG)
